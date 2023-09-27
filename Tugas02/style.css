@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #1122de;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: darkgray;
+}
+
+#display {
+    width: 90%;
+    font-size: 24px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.buttons button {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.buttons button:nth-child(4n) {
+    margin-right: 0;
+}
+
+.buttons button:nth-child(4n+1) {
+    margin-left: 0;
+}
+
+.buttons button:last-child {
+    width: 100%;
+}
